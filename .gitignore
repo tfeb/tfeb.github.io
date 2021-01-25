@@ -1,0 +1,16 @@
+# Ignore emacs backups & auto save files
+*~
+\#*\#
+.\#*
+
+# Ignore old TW backups (just in case), preservationary, and any old
+# thing
+backup/
+.preserve/
+preserve/
+*.old
+
+# Ignore scratch & tmp directories
+scratch/
+tmp/
+
