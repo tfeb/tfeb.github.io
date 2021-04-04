@@ -30,7 +30,10 @@ A collection of small Common Lisp hacks I've written over the last thirty-odd ye
 ## Smaller things
 Shards and fragments which may be interesting to someone.
 
-(None yet.)
+### A toy Lisp reader: reeder
+Reeder is a toy table-driven Lisp reader, written in Common Lisp.  I wrote it mostly to see how hard it would be.  It is a toy, it probably has bugs and it may be hard to build if you are not me.  But it is extensible and configurable.
+
+[Documentation](reeder/) / [Source code](https://github.com/tfeb/reeder)
 
 ## Relics
 Artifacts from a past I am forgetting.
