@@ -35,6 +35,18 @@ Reeder is a toy table-driven Lisp reader, written in Common Lisp.  I wrote it mo
 
 [Documentation](reeder/) / [Source code](https://github.com/tfeb/reeder)
 
+### A toy for playing with λ-calculus: oa
+Oa – one argument – is a toy [Racket](https://racket-lang.org/) language for playing with  λ-calculus.  In fact there are a total of four languages:
+
+- a pure single-argument normal-order language where functions are written as, for instance `(λ x x)`;
+- a fancy version of the above language where you can write `(λ (x y) x)` which is turned into `(λ x (λ y x))`, and where `(f a b)` is turned into `((f a) b)`;
+- a pure single-argument applicative-order language;
+- a fancy version of the applicative language.
+
+I wrote oa to learn about implementing languages in Racket, and to play with λ-calculus.  I am not convinced the normal-order languages are correct – they certainly used not to be although they seem to be working now.
+
+[Documentation](oa/) / [Source code](https://github.com/tfeb/oa)
+
 ## Relics
 Artifacts from a past I am forgetting.
 
