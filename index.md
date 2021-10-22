@@ -20,7 +20,7 @@ Conduit packages are packages which serve as conduits for one or more underlying
 ### Some Common Lisp tools
 A collection of fairly miscellaneous Common Lisp tools, which I have written over the years in order to generally get stuff done.  Slowly growing as I unearth things and publish them.
 
-[Documentation](tfeb-lisp-tools/) / [Source code](https://https://github.com/tfeb/tfeb-lisp-tools)
+[Documentation](tfeb-lisp-tools/) / [Source code](https://github.com/tfeb/tfeb-lisp-tools)
 
 ### Some Common Lisp hacks
 A collection of small Common Lisp hacks I've written over the last thirty-odd years.  Some of them are genuinely useful, some of them are little more than toys written long ago to prove a point on `comp.lang.lisp`.  They are largely independent of each other.
