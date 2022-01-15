@@ -27,6 +27,11 @@ A collection of small Common Lisp hacks I've written over the last thirty-odd ye
 
 [Documentation](tfeb-lisp-hax/) / [Source code](https://github.com/tfeb/tfeb-lisp-hax)
 
+### Some Common Lisp implementation-specific hacks
+Some things which I've written which depend on specific implementations of CL that I use or have used.  Currently not much has been added but I will probably add more over time.  Some of this code may work, some of it may once have worked, some of it may never have worked: *caveat emptor*.
+
+[Documentation](tfeb-lisp-implementation-hax/) / [Source code](https://github.com/tfeb/tfeb-lisp-implementation-hax)
+
 ## Smaller things
 Shards and fragments which may be interesting to someone.
 
