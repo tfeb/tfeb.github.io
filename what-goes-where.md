@@ -6,6 +6,8 @@ Although many things have separate system definitions, I almost never use them: 
 
 Modules `provide` their names, and live in packages with the same name they provide.  Always use heirarchical package names so `require-module` knows where to look.
 
+Collections of modules, like [hax](tfeb-lisp-hax/), traditionally have some system definition which will compile & load all of them, and perhaps run all the tests.  But that's all it's for: there's no useful reason to do this normally: just load the modules as you need them (or, well, as you `need` them).
+
 ## Minimize the number of repos
 I don't want thousands of public repos.  Particularly this is true because almost all of this stuff comes from a single internal repo, and each publication repo requires its own little bit of glue to make it work[^2].
 
@@ -28,10 +30,15 @@ These are things that might help you *build* programs, such as `require-module` 
 These are things which might help you write stuff.  Some of these might be fairly elaborate, such as `collecting` & its relations.  Again each module has an ASDF `defsystem` for compatibility.
 
 ### Things which are less serious are [toys](tfeb-lisp-toys/)
-Some of these will make there way elsewhere. Toys are all modules.
+Some of these will make their way elsewhere. Toys are all modules.  Nothing other than toys can depend on toys (this is important).
+
+## An example: `slog`
+`slog` is currently a toy, as it's perhaps not complete and certainly not tested.  It's not enormous but it's also not tiny.  It is also a standalone module: it depends on some other modules but it's a thing you might well want to load on its own.  But it's not a program: it's part of a program.  So it will end up as a hack, not in its own repo[^3].
 
 ---
 
 [^1]: This is how Racket puts systems together for instance, and largely how Python does as well, if I remember.  It's just a better approach to let a system's source files describe their own needs in my view.  And ASDF is just ... ick.
 
 [^2]: There's no chance the internal repo will get published as it has a large amount both of of idiosyncratic code and things I just don't want to be public.  So don't ask.
+
+[^3]: Before it does, `simple-loops` will need to be promoted however.
