@@ -2,7 +2,7 @@
 Some things I have made.
 
 ## Larger things
-Some of which are merely piles of smaller things, related largely by their shared history and authorship.  There should generally be some documentation and infrastructure to build and install things here.
+Some of which are merely piles of smaller things, related largely by their shared history and authorship.  There should generally be some documentation and infrastructure to build and install things here.  [Some notes on what goes where](what-goes-where.md), probably only interesting to me.
 
 ### xkcd-936: random passphrases
 Based on [xkcd 936](https://www.xkcd.com/936/).  Python 2.7 or 3.  [Documentation](xkcd-936/) / [Source code](https://github.com/tfeb/xkcd-936).
