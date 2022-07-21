@@ -17,6 +17,11 @@ Conduit packages are packages which serve as conduits for one or more underlying
 
 [Documentation](conduit-packages/) / [Source code](https://github.com/tfeb/conduit-packages)
 
+### Destructuring match for Common Lisp
+`destructuring-match` is a construct which is like a combination of `case` and a slightly extended `destructuring-bind`.  It is extremely useful for writing macros.
+
+[Documentation](dsm/) / [Source code](https://github.com/tfeb/dsm)
+
 ### Some Common Lisp tools
 A collection of fairly miscellaneous Common Lisp tools which I use to help with program construction and management, which I have written over the years in order to generally get stuff done.  Slowly growing as I unearth things and publish them.
 
