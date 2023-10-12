@@ -32,6 +32,11 @@ A collection of small Common Lisp hacks, which may be useful in programs, and wh
 
 [Documentation](tfeb-lisp-hax/) / [Source code](https://github.com/tfeb/tfeb-lisp-hax)
 
+### Symbol nicknames
+Symbol nicknames is a toy which allows you to have multiple names resolving to the same symbol, which may or may not be useful.  This is implementation-specific as it requires hooking symbol lookup: it is fully supported in LispWorks and SBCL, while the core should be portable CL.  It's never going to be more than a toy.
+
+[Documentation](symbol-nicknames/) / [Source code](https://github.com/tfeb/symbol-nicknames)
+
 ### Some Common Lisp implementation-specific hacks
 Some things which I've written which depend on specific implementations of CL that I use or have used.  Currently not much has been added but I will probably add more over time.  Some of this code may work, some of it may once have worked, some of it may never have worked: *caveat emptor*.
 
