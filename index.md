@@ -22,6 +22,11 @@ Conduit packages are packages which serve as conduits for one or more underlying
 
 [Documentation](dsm/) / [Source code](https://github.com/tfeb/dsm)
 
+### Štar: an iteration construct for Common Lisp
+Štar is a concise and extensible iteration construct for Common Lisp which aims to be pleasant to use, easy to understand, fast if needed, general, and not to look like Fortran.
+
+[Documentation](star/) / [Source code](https://github.com/tfeb/star)
+
 ### Some Common Lisp tools
 A collection of fairly miscellaneous Common Lisp tools which I use to help with program construction and management, which I have written over the years in order to generally get stuff done.  Slowly growing as I unearth things and publish them.
 
