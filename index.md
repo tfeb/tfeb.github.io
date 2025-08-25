@@ -1,4 +1,8 @@
-# [Tim Bradshaw](https://github.com/tfeb)
+# [Tim Bradshaw](https://tfeb.org/)
+**Note.** No code will change in my GitHub repos after August, 2025, as I am moving away from GitHub.  See [tfeb.org/computer/](https://tfeb.org/computer/) for anything more recent.  When all this is complete I'll update this notice to say so.  As things are migrated they'll say so.
+
+---
+
 Some things I have made.
 
 ## Larger things
@@ -23,9 +27,9 @@ Conduit packages are packages which serve as conduits for one or more underlying
 [Documentation](dsm/) / [Source code](https://github.com/tfeb/dsm)
 
 ### Štar: an iteration construct for Common Lisp
-Štar is a concise and extensible iteration construct for Common Lisp which aims to be pleasant to use, easy to understand, fast if needed, general, and not to look like Fortran.
+**\[Migrated]** Štar is a concise and extensible iteration construct for Common Lisp which aims to be pleasant to use, easy to understand, fast if needed, general, and not to look like Fortran.
 
-[Documentation](star/) / [Source code](https://github.com/tfeb/star)
+[Documentation](https://tfeb.org/fragments/documentation/star.html) / [Source code](https://tfeb.org/computer/repos.star.git)
 
 ### Some Common Lisp tools
 A collection of fairly miscellaneous Common Lisp tools which I use to help with program construction and management, which I have written over the years in order to generally get stuff done.  Slowly growing as I unearth things and publish them.
