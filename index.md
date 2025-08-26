@@ -9,7 +9,7 @@ Some things I have made.
 Some of which are merely piles of smaller things, related largely by their shared history and authorship.  There should generally be some documentation and infrastructure to build and install things here.  [Some notes on what goes where](what-goes-where.md), probably only interesting to me.
 
 ### xkcd-936: random passphrases
-Based on [xkcd 936](https://www.xkcd.com/936/).  Python 2.7 or 3.  [Documentation](xkcd-936/) / [Source code](https://github.com/tfeb/xkcd-936).
+**\[Migrated]** Based on [xkcd 936](https://www.xkcd.com/936/).  Python 2.7 or 3.  [Documentation](https://tfeb.org/fragments/documentation/xkcd-936.html) / [Source code](https://tfeb.org/computer/repos/xkcd-936.git).
 
 ### Warranted commands
 MacOS now has protections which are completely orthogonal to the traditional Unix file access controls.  These can make running unattended periodic tasks difficult.  A solution is to have a single program which you 'bless' with full disk access and which can then run other things.  To make this not insanely dangerous that program should allow you to specify what it will, and won't run.  That's what `warranted` is: a tool like `sudo` but without the implication of access as another user, and with a better (I think) configuration syntax.  It's written in [Racket](https://racket-lang.org/), and you'll need a Racket installation to build it.
