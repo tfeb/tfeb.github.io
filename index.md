@@ -12,9 +12,9 @@ Some of which are merely piles of smaller things, related largely by their share
 **\[Migrated]** Based on [xkcd 936](https://www.xkcd.com/936/).  Python 2.7 or 3.  [Documentation](https://tfeb.org/fragments/documentation/xkcd-936.html) / [Source code](https://tfeb.org/computer/repos/xkcd-936.git).
 
 ### Warranted commands
-MacOS now has protections which are completely orthogonal to the traditional Unix file access controls.  These can make running unattended periodic tasks difficult.  A solution is to have a single program which you 'bless' with full disk access and which can then run other things.  To make this not insanely dangerous that program should allow you to specify what it will, and won't run.  That's what `warranted` is: a tool like `sudo` but without the implication of access as another user, and with a better (I think) configuration syntax.  It's written in [Racket](https://racket-lang.org/), and you'll need a Racket installation to build it.
+**\[Migrated]** MacOS now has protections which are completely orthogonal to the traditional Unix file access controls.  These can make running unattended periodic tasks difficult.  A solution is to have a single program which you 'bless' with full disk access and which can then run other things.  To make this not insanely dangerous that program should allow you to specify what it will, and won't run.  That's what `warranted` is: a tool like `sudo` but without the implication of access as another user, and with a better (I think) configuration syntax.  It's written in [Racket](https://racket-lang.org/), and you'll need a Racket installation to build it.
 
-[Documentation](warranted/) / [Source code](https://github.com/tfeb/warranted)
+[Documentation](https://tfeb.org/fragments/documentation/warranted.html) / [Source code](https://tfeb.org/computer/repos/warranted.git)
 
 ### Conduit packages for Common Lisp
 Conduit packages are packages which serve as conduits for one or more underlying packages: they let you make a system which consists of several implementation packages available through one package, or to provide packages which extend other packages, or replace some symbols they export with symbols from a different package.
