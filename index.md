@@ -17,14 +17,14 @@ Some of which are merely piles of smaller things, related largely by their share
 [Documentation](https://tfeb.org/fragments/documentation/warranted.html) / [Source code](https://tfeb.org/computer/repos/warranted.git)
 
 ### Conduit packages for Common Lisp
-Conduit packages are packages which serve as conduits for one or more underlying packages: they let you make a system which consists of several implementation packages available through one package, or to provide packages which extend other packages, or replace some symbols they export with symbols from a different package.
+**\[Migrated]** Conduit packages are packages which serve as conduits for one or more underlying packages: they let you make a system which consists of several implementation packages available through one package, or to provide packages which extend other packages, or replace some symbols they export with symbols from a different package.
 
-[Documentation](conduit-packages/) / [Source code](https://github.com/tfeb/conduit-packages)
+[Documentation](https://tfeb.org/fragments/documentation/conduit-packages.html) / [Source code](https://tfeb.org/computer/repos/conduit-packages.git)
 
 ### Destructuring match for Common Lisp
-`destructuring-match` is a construct which is like a combination of `case` and a slightly extended `destructuring-bind`.  It is extremely useful for writing macros.
+**\[Migrated]** `destructuring-match` is a construct which is like a combination of `case` and a slightly extended `destructuring-bind`.  It is extremely useful for writing macros.
 
-[Documentation](dsm/) / [Source code](https://github.com/tfeb/dsm)
+[Documentation](https://tfeb.org/fragments/documentation/dsm.html) / [Source code](https://tfeb.org/computer/repos/dsm.git)
 
 ### Štar: an iteration construct for Common Lisp
 **\[Migrated]** Štar is a concise and extensible iteration construct for Common Lisp which aims to be pleasant to use, easy to understand, fast if needed, general, and not to look like Fortran.
@@ -32,40 +32,40 @@ Conduit packages are packages which serve as conduits for one or more underlying
 [Documentation](https://tfeb.org/fragments/documentation/star.html) / [Source code](https://tfeb.org/computer/repos/star.git)
 
 ### Some Common Lisp tools
-A collection of fairly miscellaneous Common Lisp tools which I use to help with program construction and management, which I have written over the years in order to generally get stuff done.  Slowly growing as I unearth things and publish them.
+**\[Migrated]** A collection of fairly miscellaneous Common Lisp tools which I use to help with program construction and management, which I have written over the years in order to generally get stuff done.  Slowly growing as I unearth things and publish them.
 
-[Documentation](tfeb-lisp-tools/) / [Source code](https://github.com/tfeb/tfeb-lisp-tools)
+[Documentation](https://tfeb.org/fragments/documentation/tfeb-lisp-tools.html) / [Source code](https://tfeb.org/computer/repos/tfeb-lisp-tools.git)
 
 ### Some Common Lisp hacks
-A collection of small Common Lisp hacks, which may be useful in programs, and which I've written over the last thirty-odd years.  Some of them are genuinely useful, some of them are little more than toys written long ago to prove a point on `comp.lang.lisp`.  They are largely independent of each other.
+**\[Migrated]** A collection of small Common Lisp hacks, which may be useful in programs, and which I've written over the last thirty-odd years.  Some of them are genuinely useful, some of them are little more than toys written long ago to prove a point on `comp.lang.lisp`.  They are largely independent of each other.
 
-[Documentation](tfeb-lisp-hax/) / [Source code](https://github.com/tfeb/tfeb-lisp-hax)
+[Documentation](https://tfeb.org/fragments/documentation/tfeb-lisp-hax.html) / [Source code](https://tfeb.org/computer/repos/tfeb-lisp-hax.git)
 
 ### Symbol nicknames
-Symbol nicknames is a toy which allows you to have multiple names resolving to the same symbol, which may or may not be useful.  This is implementation-specific as it requires hooking symbol lookup: it is fully supported in LispWorks and SBCL, while the core should be portable CL.  It's never going to be more than a toy.
+**\[Migrated]** Symbol nicknames is a toy which allows you to have multiple names resolving to the same symbol, which may or may not be useful.  This is implementation-specific as it requires hooking symbol lookup: it is fully supported in LispWorks and SBCL, while the core should be portable CL.  It's never going to be more than a toy.
 
-[Documentation](symbol-nicknames/) / [Source code](https://github.com/tfeb/symbol-nicknames)
+[Documentation](https://tfeb.org/fragments/documentation/symbol-nicknames.html) / [Source code](https://tfeb.org/computer/repos/symbol-nicknames.git)
 
 ### Some Common Lisp implementation-specific hacks
-Some things which I've written which depend on specific implementations of CL that I use or have used.  Currently not much has been added but I will probably add more over time.  Some of this code may work, some of it may once have worked, some of it may never have worked: *caveat emptor*.
+**\[Migrated]** Some things which I've written which depend on specific implementations of CL that I use or have used.  Currently not much has been added but I will probably add more over time.  Some of this code may work, some of it may once have worked, some of it may never have worked: *caveat emptor*.
 
-[Documentation](tfeb-lisp-implementation-hax/) / [Source code](https://github.com/tfeb/tfeb-lisp-implementation-hax)
+[Documentation](https://tfeb.org/fragments/documentation/tfeb-lisp-implementation-hax.html) / [Source code](https://tfeb.org/computer/repos/tfeb-lisp-implementation-hax.git)
 
 ## Smaller things
 Shards and fragments which may be interesting to someone.
 
 ### Some Common Lisp toys
-A collection of Common Lisp toys: some may work, some may not work, some may never have worked.
+**\[Migrated]** A collection of Common Lisp toys: some may work, some may not work, some may never have worked.
 
-[Documentation](tfeb-lisp-toys/) / [Source code](https://github.com/tfeb/tfeb-lisp-toys)
+[Documentation](https://tfeb.org/fragments/documentation/tfeb-lisp-toys.html) / [Source code](https://tfeb.org/computer/repos/tfeb-lisp-toys.git)
 
 ### A toy Lisp reader: reeder
-Reeder is a toy table-driven Lisp reader, written in Common Lisp.  I wrote it mostly to see how hard it would be.  It is a toy, it probably has bugs and it may be hard to build if you are not me.  But it is extensible and configurable.
+**\[Migrated]** Reeder is a toy table-driven Lisp reader, written in Common Lisp.  I wrote it mostly to see how hard it would be.  It is a toy, it probably has bugs and it may be hard to build if you are not me.  But it is extensible and configurable.
 
-[Documentation](reeder/) / [Source code](https://github.com/tfeb/reeder)
+[Documentation](https://tfeb.org/fragments/documentation/reeder.html) / [Source code](https://tfeb.org/computer/repos/reeder.git)
 
 ### A toy for playing with λ-calculus: oa
-Oa – one argument – is a toy [Racket](https://racket-lang.org/) language for playing with  λ-calculus.  In fact there are a total of four languages:
+**\[Migrated]** Oa – one argument – is a toy [Racket](https://racket-lang.org/) language for playing with  λ-calculus.  In fact there are a total of four languages:
 
 - a pure single-argument normal-order language where functions are written as, for instance `(λ x x)`;
 - a fancy version of the above language where you can write `(λ (x y) x)` which is turned into `(λ x (λ y x))`, and where `(f a b)` is turned into `((f a) b)`;
@@ -74,7 +74,7 @@ Oa – one argument – is a toy [Racket](https://racket-lang.org/) language for
 
 I wrote oa to learn about implementing languages in Racket, and to play with λ-calculus.  I am not convinced the normal-order languages are correct – they certainly used not to be although they seem to be working now.
 
-[Documentation](oa/) / [Source code](https://github.com/tfeb/oa)
+[Documentation](https://tfeb.org/fragments/documentation/oa.html) / [Source code](https://tfeb.org/computer/repos/oa.git)
 
 ## Relics
 Artifacts from a past I am forgetting.
