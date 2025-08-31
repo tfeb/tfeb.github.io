@@ -1,5 +1,12 @@
 # [Tim Bradshaw](https://tfeb.org/)
-**Note.** No code will change in my GitHub repos after August, 2025, as I am moving away from GitHub.  See [tfeb.org/computer/](https://tfeb.org/computer/) for anything more recent.  When all this is complete I'll update this notice to say so.  As things are migrated they'll say so.
+## Note
+No code will change in my permanent GitHub repos after August, 2025, as I am moving away from GitHub.  Everything mentioned in this document has now been migrated: the repos still exist on GitHub but only as archives.  Some other smaller things (not mentioned here) will move in due course.  Here are the new locations:
+
+- [**Index page**](https://tfeb.org/computer)
+- [**Documentation index page**](https://tfeb.org/fragments/documentation/) (the new version of this document)
+- [**Git repos**](https://tfeb.org/computer/repos/)
+
+See also [Minimum clown](https://tfeb.org/fragments/2025/08/26/minimum-clown/) which explains why I've done this, if it's not obvious.
 
 ---
 
